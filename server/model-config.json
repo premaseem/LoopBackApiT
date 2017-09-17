@@ -36,11 +36,11 @@
     "public": false
   },
   "Driver": {
-    "dataSource": "db",
+    "dataSource": "mongodb",
     "public": true
   },
   "Tenant": {
-    "dataSource": "db",
+    "dataSource": "mongodb",
     "public": true
   }
 }

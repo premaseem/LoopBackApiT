@@ -3,13 +3,13 @@
     "name": "db",
     "connector": "memory"
   },
-  "transport": {
+  "mongodb": {
     "host": "localhost",
     "port": 27017,
     "url": "",
     "database": "transportv2",
     "password": "",
-    "name": "transport",
+    "name": "mongodb",
     "user": "",
     "connector": "mongodb"
   }
