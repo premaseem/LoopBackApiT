@@ -38,5 +38,9 @@
   "Driver": {
     "dataSource": "db",
     "public": true
+  },
+  "Tenant": {
+    "dataSource": "db",
+    "public": true
   }
 }

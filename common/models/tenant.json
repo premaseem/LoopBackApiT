@@ -1,0 +1,27 @@
+{
+  "name": "Tenant",
+  "plural": "y",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "tenantId": {
+      "type": "number",
+      "required": true,
+      "default": 420
+    },
+    "name": {
+      "type": "number",
+      "required": true
+    },
+    "usdot": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
