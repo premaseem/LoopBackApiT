@@ -1,0 +1,210 @@
+{
+  "id": 12345,
+  "driverId": 12,
+  "tenantId": 12345,
+  "status": 1,
+  "hireDate": "2017-02-19",
+  "gender": "male",
+  "nationality": "USA",
+  "accidents": 3,
+  "roadsideInspections": 6,
+  "safetyAwards": 3,
+  "safetyMeetings": 10,
+  "classification": "Owner Operator",
+  "vendorId": 5746321,
+  "dqStatus": "Qualified",
+  "type": "GVRW 26000 lbs",
+  "eyeColor": "Hazel",
+  "visaNumber": "",
+  "ssn": "NYP-123-3487",
+  "height": "5'11\"",
+  "weight": "295 lbs.",
+  "driver": {
+    "firstName": "Meera",
+    "lastName": "Jain",
+    "phones": {
+      "home": "210-220-3121",
+      "mobile": "210-344-4535"
+    },
+    "address": [
+      {
+        "start_date": "2015-10-31",
+        "end_date": "",
+        "building": 1155,
+        "street": "Heimer Lange",
+        "city": "Spring Branch",
+        "state": "TX",
+        "postal_code": "78070",
+        "country": "USA"
+      },
+      {
+        "start_date": "2014-07-15",
+        "end_date": "2015-10-31",
+        "building": 2525,
+        "street": "Bobcat",
+        "city": "Bulverde",
+        "state": "TX",
+        "postal_code": "78263",
+        "country": "USA"
+      }
+    ],
+    "email": [
+      "gsteele@gmail.com",
+      "george@wtrans.com"
+    ],
+    "dateOfBirth": "1964-05-05",
+    "drivers_license": [
+      {
+        "issued_date": "2014-12-01",
+        "dl_number": "ADP1212245",
+        "dl_class": "A",
+        "dl_expiration": "2017-10-01",
+        "dl_state": "TX",
+        "dl_type": "CDL",
+        "endorsements": [
+          "T",
+          "P",
+          "N",
+          "H"
+        ],
+        "restrictions": [
+          "A",
+          "L"
+        ],
+        "dl_image": "/assets/drivers/CDL_SAMPLE.jpg",
+        "dl_back_image": "/assets/drivers/CDL_SAMPLE_BACK.jpg"
+      },
+      {
+        "issued_date": "2015-05-01",
+        "dl_number": "ADP98938531",
+        "dl_class": "A",
+        "dl_expiration": "2016-01-01",
+        "dl_state": "OK",
+        "dl_type": "CDL",
+        "endorsements": [],
+        "restrictions": [
+          "A"
+        ],
+        "dl_image": "/assets/drivers/CDL_SAMPLE.jpg",
+        "dl_back_image": "/assets/drivers/CDL_SAMPLE_BACK.jpg"
+      }
+    ],
+    "emergencyContacts": [
+      {
+        "name": "Carolyn Steele",
+        "phone": "210-880-1212",
+        "relationship": "spouse",
+        "street": "Heimer Lange",
+        "city": "Spring Branch",
+        "state": "TX",
+        "postal_code": "78070"
+      },
+      {
+        "name": "Lilly Steele",
+        "phone": "210-562-4545",
+        "relationship": "parent",
+        "street": "Bobcat",
+        "city": "Bulverde",
+        "state": "TX",
+        "postal_code": "78263"
+      }
+    ],
+    "middleName": "",
+    "aliases": [
+      "George Steelestein",
+      "George Rosensteele"
+    ],
+    "drivers_license[0]": {}
+  },
+  "medCertificates": [
+    {
+      "expiration": "2017-08-12"
+    }
+  ],
+  "lastAnnualReview": {
+    "date": "2016-12-28"
+  },
+  "awards": [
+    {
+      "name": "BEST DRIVER",
+      "date": "2016-01-22"
+    }
+  ],
+  "vehicleHistory": [
+    {
+      "start_date": "2016-07-22",
+      "end_date": "",
+      "vehicle": 7402,
+      "make": "Freightliner",
+      "type": "Tractor-Trailer",
+      "duration": 291
+    },
+    {
+      "start_date": "2015-12-12",
+      "end_date": "2016-07-21",
+      "vehicle": 8108,
+      "make": "Mack",
+      "type": "Mixer",
+      "duration": 223
+    },
+    {
+      "start_date": "2015-08-19",
+      "end_date": "2015-12-11",
+      "vehicle": 9205,
+      "make": "Volvo",
+      "type": "Superdump",
+      "duration": 114
+    },
+    {
+      "start_date": "2014-04-25",
+      "end_date": "2015-08-19",
+      "vehicle": 88,
+      "make": "Peterbuilt",
+      "type": "Tractor-Trailer",
+      "duration": 481
+    }
+  ],
+  "statusHistory": [
+    {
+      "start_date": "2016-04-11",
+      "end_date": "",
+      "status": "Active",
+      "via": "Bob Blake"
+    },
+    {
+      "start_date": "2015-02-18",
+      "end_date": "2016-04-11",
+      "status": "Inactive - Disability",
+      "via": "Jason Freddie"
+    },
+    {
+      "start_date": "2014-04-25",
+      "end_date": "2016-02-18",
+      "status": "Active",
+      "via": "Bob Blake"
+    },
+    {
+      "start_date": "2014-04-11",
+      "end_date": "2014-04-25",
+      "status": "Prospective",
+      "via": "New Application"
+    }
+  ],
+  "notes": [
+    {
+      "date": "2017-02-11",
+      "subject": "Occupational Accident Ins.",
+      "user": "Bob Blake"
+    },
+    {
+      "date": "2015-09-20",
+      "user": "Bob Blake",
+      "subject": "Tarping Loads"
+    },
+    {
+      "date": "2014-04-14",
+      "user": "Kevin Kellar",
+      "subject": "Discussion of Leasing Benefits"
+    }
+  ]
+}
