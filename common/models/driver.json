@@ -6,22 +6,29 @@
     "validateUpsert": true
   },
   "properties": {
-    "tenantId": {
-      "type": "number"
-    },
     "status": {
       "type": "number",
       "required": true,
       "default": 1
-    },
-    "driverId": {
-      "type": "number",
-      "required": true,
-      "default": 420
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "contacts": {
+      "type": "embedsMany",
+      "model": "Contact",
+      "property": "contacts",
+      "options": {
+        "validate": true,
+        "forceId": false
+      }
+    },
+    "tenant": {
+      "type": "belongsTo",
+      "model": "Tenant",
+      "foreignKey": ""
+    }
+  },
   "acls": [],
   "methods": {}
 }

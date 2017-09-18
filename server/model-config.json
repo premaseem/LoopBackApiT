@@ -42,5 +42,17 @@
   "Tenant": {
     "dataSource": "mongodb",
     "public": true
+  },
+  "Vehicle": {
+    "dataSource": "mongodb",
+    "public": true
+  },
+  "Contact": {
+    "dataSource": "mongodb",
+    "public": true
+  },
+  "Address": {
+    "dataSource": "mongodb",
+    "public": true
   }
 }

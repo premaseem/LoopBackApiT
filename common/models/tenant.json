@@ -6,13 +6,8 @@
     "validateUpsert": true
   },
   "properties": {
-    "tenantId": {
-      "type": "number",
-      "required": true,
-      "default": 420
-    },
     "name": {
-      "type": "number",
+      "type": "string",
       "required": true
     },
     "usdot": {
