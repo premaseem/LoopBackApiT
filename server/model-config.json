@@ -70,5 +70,9 @@
   "VehicleHistory": {
     "dataSource": "mongodb",
     "public": true
+  },
+  "DriversLicense": {
+    "dataSource": "mongodb",
+    "public": true
   }
 }

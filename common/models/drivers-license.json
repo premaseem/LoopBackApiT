@@ -1,0 +1,48 @@
+{
+  "name": "DriversLicense",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "number": {
+      "type": "string"
+    },
+    "class": {
+      "type": "string"
+    },
+    "issuedDate": {
+      "type": "date"
+    },
+    "expirationDate": {
+      "type": "date"
+    },
+    "state": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "frontImagePath": {
+      "type": "string"
+    },
+    "backImagePath": {
+      "type": "string"
+    },
+    "endorsements": {
+      "type": [
+        "string"
+      ]
+    },
+    "restrictions": {
+      "type": [
+        "string"
+      ]
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

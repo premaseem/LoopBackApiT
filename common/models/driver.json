@@ -78,6 +78,15 @@
         "forceId": false
       }
     },
+    "driversLicense": {
+      "type": "embedsMany",
+      "model": "DriversLicense",
+      "property": "driversLicense",
+      "options": {
+        "validate": true,
+        "forceId": false
+      }
+    },
     "addressHistory": {
       "type": "embedsMany",
       "model": "AddressHistory",
