@@ -1,5 +1,5 @@
 'use strict';
 
-module.exports = function(Contact) {
+module.exports = function (Contact) {
 
 };

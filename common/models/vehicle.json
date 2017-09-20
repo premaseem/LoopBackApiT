@@ -9,12 +9,18 @@
     "name": {
       "type": "string"
     },
-    "numberOfWheels": {
+    "wheels": {
       "type": "number"
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "driver": {
+      "type": "belongsTo",
+      "model": "Driver",
+      "foreignKey": ""
+    }
+  },
   "acls": [],
   "methods": {}
 }

@@ -1,5 +1,5 @@
 'use strict';
 
-module.exports = function(Tenant) {
+module.exports = function (Tenant) {
 
 };

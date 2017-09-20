@@ -1,5 +1,5 @@
 'use strict';
 
-module.exports = function(Driverslicense) {
+module.exports = function (Driverslicense) {
 
 };

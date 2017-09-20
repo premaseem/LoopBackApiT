@@ -1,5 +1,5 @@
 'use strict';
 
-module.exports = function(Statushistory) {
+module.exports = function (Statushistory) {
 
 };

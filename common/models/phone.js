@@ -1,5 +1,5 @@
 'use strict';
 
-module.exports = function(Phone) {
+module.exports = function (Phone) {
 
 };

@@ -1,5 +1,5 @@
 'use strict';
 
-module.exports = function(Driver) {
+module.exports = function (Driver) {
 
 };

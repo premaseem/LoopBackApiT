@@ -1,5 +1,5 @@
 'use strict';
 
-module.exports = function(Vehiclehistory) {
+module.exports = function (Vehiclehistory) {
 
 };

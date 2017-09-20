@@ -10,11 +10,13 @@
       "type": [
         "string"
       ]
-    },    "work": {
+    },
+    "work": {
       "type": [
         "string"
       ]
-    },    "mobile": {
+    },
+    "mobile": {
       "type": [
         "string"
       ]
