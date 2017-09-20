@@ -1,0 +1,206 @@
+{
+
+//Auto Generated id
+  "id": "asdfs343423dsds",
+
+// Personal Details
+  "firstName": "Meera",
+  "middleName": "",
+  "lastName": "Jain",
+  "aliases": [
+    "George Steelestein",
+    "George Rosensteele"
+  ],
+  "height": "5'11\"",
+  "weight": "295 lbs.",
+  "gender": "male",
+  "eyeColor": "Hazel",
+  "dateOfBirth": "1964-05-05",
+  "nationality": "USA",
+  "visaNumber": "",
+  "email": [
+    "gsteele@gmail.com",
+    "george@wtrans.com"
+  ],
+  "phones": {
+    "home": "210-220-3121",
+    "mobile": "210-344-4535",
+    "work": "210-344-4535"
+  },
+  "address": [
+    {
+      "startDate": "2015-10-31",
+      "endDate": "",
+      "building": 1155,
+      "street": "Heimer Lange",
+      "city": "Spring Branch",
+      "state": "TX",
+      "postal_code": "78070",
+      "country": "USA"
+    },
+    {
+      "start_date": "2014-07-15",
+      "end_date": "2015-10-31",
+      "building": 2525,
+      "street": "Bobcat",
+      "city": "Bulverde",
+      "state": "TX",
+      "postal_code": "78263",
+      "country": "USA"
+    }
+  ],
+
+  // Emergency Contact Details
+  "emergencyContacts": [
+    {
+      "name": "Carolyn Steele",
+      "phone": "210-880-1212",
+      "relationship": "spouse",
+      "street": "Heimer Lange",
+      "city": "Spring Branch",
+      "state": "TX",
+      "postal_code": "78070"
+    },
+    {
+      "name": "Lilly Steele",
+      "phone": "210-562-4545",
+      "relationship": "parent",
+      "street": "Bobcat",
+      "city": "Bulverde",
+      "state": "TX",
+      "postal_code": "78263"
+    }
+  ],
+
+// official details
+  "status": 1,
+  "dqStatus": "Qualified",
+  "hireDate": "2017-02-19",
+  "ssn": "NYP-123-3487",
+  "vendorId": 5746321,
+  "type": "GVRW 26000 lbs",
+  "classification": "Owner Operator",
+
+
+// License details = belongs to link
+  "drivingLicense": [
+    {
+      "issuedDate": "2014-12-01",
+      "number": "ADP1212245",
+      "class": "A",
+      "expiration": "2017-10-01",
+      "state": "TX",
+      "type": "CDL",
+      "endorsements": [
+        "T",
+        "P",
+        "N",
+        "H"
+      ],
+      "restrictions": [
+        "A",
+        "L"
+      ],
+      "frontImagePath": "/assets/drivers/CDL_SAMPLE.jpg",
+      "backImagePath": "/assets/drivers/CDL_SAMPLE_BACK.jpg"
+    }
+  ],
+
+// Dashboard matic data Data
+  "accidents": 3,
+  "roadsideInspections": 6,
+  "safetyAwards": 3,
+  "safetyMeetings": 10,
+
+// embeds in separate
+  "awards": [
+    {
+      "name": "BEST DRIVER",
+      "date": "2016-01-22"
+    }
+  ],
+
+  // Embed as model
+  "medCertificates": [
+    {
+      "expiration": "2017-08-12"
+    }
+  ],
+
+  // Embed as model
+  "annualReview": {
+    "date": "2016-12-28"
+  },
+
+// Vehicle History embeds
+  "vehicleHistory": [
+    {
+      "start_date": "2016-07-22",
+      "end_date": "",
+      "vehicle": "vehilde id - Reference"
+    },
+    {
+      "start_date": "2015-12-12",
+      "end_date": "2016-07-21",
+      "vehicle": "vehilde id - Reference"
+    },
+    {
+      "start_date": "2015-08-19",
+      "end_date": "2015-12-11",
+      "vehicle": "vehilde id - Reference"
+    },
+    {
+      "start_date": "2014-04-25",
+      "end_date": "2015-08-19",
+      "vehicle": "vehilde id - Reference"
+    }
+  ],
+
+  // Notes belongs Model
+  "statusHistory": [
+    {
+      "start_date": "2016-04-11",
+      "end_date": "",
+      "status": "Active", // ? should be status code / number
+      "via": "Bob Blake"
+    },
+    {
+      "start_date": "2015-02-18",
+      "end_date": "2016-04-11",
+      "status": "Inactive - Disability",
+      "via": "Jason Freddie"
+    },
+    {
+      "start_date": "2014-04-25",
+      "end_date": "2016-02-18",
+      "status": "Active",
+      "via": "Bob Blake"
+    },
+    {
+      "start_date": "2014-04-11",
+      "end_date": "2014-04-25",
+      "status": "Prospective",
+      "via": "New Application"
+    }
+  ],
+
+// Notes belongs Model
+  "notes": [
+    {
+      "date": "2017-02-11",
+      "subject": "Occupational Accident Ins.",
+      "user": "Bob Blake"
+    },
+    {
+      "date": "2015-09-20",
+      "user": "Bob Blake",
+      "subject": "Tarping Loads"
+    },
+    {
+      "date": "2014-04-14",
+      "user": "Kevin Kellar",
+      "subject": "Discussion of Leasing Benefits"
+    }
+  ]
+}
+
