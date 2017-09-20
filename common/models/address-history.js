@@ -1,5 +1,5 @@
 'use strict';
 
-module.exports = function(Addresshistory) {
+module.exports = function (Addresshistory) {
 
 };
