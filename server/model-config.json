@@ -74,5 +74,9 @@
   "DriversLicense": {
     "dataSource": "mongodb",
     "public": true
+  },
+  "Phone": {
+    "dataSource": "mongodb",
+    "public": true
   }
 }

@@ -1,0 +1,27 @@
+{
+  "name": "Phone",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "home": {
+      "type": [
+        "string"
+      ]
+    },    "work": {
+      "type": [
+        "string"
+      ]
+    },    "mobile": {
+      "type": [
+        "string"
+      ]
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

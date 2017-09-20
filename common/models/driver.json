@@ -105,6 +105,15 @@
         "forceId": false
       }
     },
+    "phone": {
+      "type": "embedsOne",
+      "model": "Phone",
+      "property": "phone",
+      "options": {
+        "validate": true,
+        "forceId": false
+      }
+    },
     "tenant": {
       "type": "belongsTo",
       "model": "Tenant",

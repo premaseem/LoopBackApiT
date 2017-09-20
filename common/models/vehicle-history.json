@@ -16,13 +16,9 @@
   "validations": [],
   "relations": {
     "vehicle": {
-      "type": "embedsOne",
+      "type": "belongsTo",
       "model": "Vehicle",
-      "property": "vehicle",
-      "options": {
-        "validate": true,
-        "forceId": false
-      }
+      "foreignKey": ""
     }
   },
   "acls": [],
