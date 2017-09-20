@@ -58,5 +58,9 @@
   "Notes": {
     "dataSource": "mongodb",
     "public": true
+  },
+  "AddressHistory": {
+    "dataSource": "mongodb",
+    "public": true
   }
 }

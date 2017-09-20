@@ -18,43 +18,45 @@
     "aliases": {
       "type": [
         "string"
-      ]},
+      ]
+    },
     "email": {
       "type": [
         "string"
-      ]},
-      "dateOfBirth": {
-        "type": "date"
-      },
-      "gender": {
-        "type": "string"
-      },
-      "height": {
-        "type": "string"
-      },
-      "weight": {
-        "type": "string"
-      },
-      "eyeColor": {
-        "type": "string"
-      },
-      "nationality": {
-        "type": "string"
-      },
-      "visaNumber": {
-        "type": "string"
-      },
-      "classification": {
-        "type": "string"
-      },
+      ]
+    },
+    "dateOfBirth": {
+      "type": "date"
+    },
+    "gender": {
+      "type": "string"
+    },
+    "height": {
+      "type": "string"
+    },
+    "weight": {
+      "type": "string"
+    },
+    "eyeColor": {
+      "type": "string"
+    },
+    "nationality": {
+      "type": "string"
+    },
+    "visaNumber": {
+      "type": "string"
+    },
+    "classification": {
+      "type": "string"
+    },
     "status": {
       "type": "number",
       "required": true,
       "default": 1
     },
-      "dqStatus": {
-        "type": "string"
-      },
+    "dqStatus": {
+      "type": "string"
+    },
     "hireDate": {
       "type": "date"
     },
@@ -64,7 +66,6 @@
     "type": {
       "type": "string"
     }
-
   },
   "validations": [],
   "relations": {
@@ -77,9 +78,23 @@
         "forceId": false
       }
     },
+    "addressHistory": {
+      "type": "embedsMany",
+      "model": "AddressHistory",
+      "property": "addressHistory",
+      "options": {
+        "validate": true,
+        "forceId": false
+      }
+    },
     "tenant": {
       "type": "belongsTo",
       "model": "Tenant",
+      "foreignKey": ""
+    },
+    "notes": {
+      "type": "belongsTo",
+      "model": "Notes",
       "foreignKey": ""
     }
   },
