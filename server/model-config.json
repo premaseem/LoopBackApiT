@@ -54,5 +54,9 @@
   "Address": {
     "dataSource": "mongodb",
     "public": true
+  },
+  "Notes": {
+    "dataSource": "mongodb",
+    "public": true
   }
 }
