@@ -66,5 +66,9 @@
   "StatusHistory": {
     "dataSource": "mongodb",
     "public": true
+  },
+  "VehicleHistory": {
+    "dataSource": "mongodb",
+    "public": true
   }
 }
