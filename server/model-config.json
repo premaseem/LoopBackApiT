@@ -55,7 +55,7 @@
     "dataSource": "mongodb",
     "public": true
   },
-  "Notes": {
+  "Note": {
     "dataSource": "mongodb",
     "public": true
   },

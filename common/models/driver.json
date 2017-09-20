@@ -70,7 +70,7 @@
   "validations": [],
   "relations": {
     "contacts": {
-      "type": "embedsMany",
+      "type": "hasMany",
       "model": "Contact",
       "property": "contacts",
       "options": {
@@ -119,9 +119,9 @@
       "model": "Tenant",
       "foreignKey": ""
     },
-    "notes": {
+    "note": {
       "type": "belongsTo",
-      "model": "Notes",
+      "model": "Note",
       "foreignKey": ""
     }
   },
