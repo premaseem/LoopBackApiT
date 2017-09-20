@@ -6,11 +6,65 @@
     "validateUpsert": true
   },
   "properties": {
+    "firstName": {
+      "type": "string"
+    },
+    "middleName": {
+      "type": "string"
+    },
+    "lastName": {
+      "type": "string"
+    },
+    "aliases": {
+      "type": [
+        "string"
+      ]},
+    "email": {
+      "type": [
+        "string"
+      ]},
+      "dateOfBirth": {
+        "type": "date"
+      },
+      "gender": {
+        "type": "string"
+      },
+      "height": {
+        "type": "string"
+      },
+      "weight": {
+        "type": "string"
+      },
+      "eyeColor": {
+        "type": "string"
+      },
+      "nationality": {
+        "type": "string"
+      },
+      "visaNumber": {
+        "type": "string"
+      },
+      "classification": {
+        "type": "string"
+      },
     "status": {
       "type": "number",
       "required": true,
       "default": 1
+    },
+      "dqStatus": {
+        "type": "string"
+      },
+    "hireDate": {
+      "type": "date"
+    },
+    "ssn": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
     }
+
   },
   "validations": [],
   "relations": {
