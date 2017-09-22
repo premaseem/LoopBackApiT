@@ -78,5 +78,9 @@
   "Phone": {
     "dataSource": "mongodb",
     "public": true
+  },
+  "DriverNoteTieup": {
+    "dataSource": "mongodb",
+    "public": true
   }
 }

@@ -70,7 +70,7 @@
   "validations": [],
   "relations": {
     "contacts": {
-      "type": "hasMany",
+      "type": "embedsMany",
       "model": "Contact",
       "property": "contacts",
       "options": {
@@ -119,10 +119,11 @@
       "model": "Tenant",
       "foreignKey": ""
     },
-    "note": {
-      "type": "belongsTo",
+    "notes": {
+      "type": "hasMany",
       "model": "Note",
-      "foreignKey": ""
+      "foreignKey": "",
+      "through": "DriverNoteTieup"
     }
   },
   "acls": [],
