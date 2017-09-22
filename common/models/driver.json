@@ -96,15 +96,6 @@
         "forceId": false
       }
     },
-    "statusHistory": {
-      "type": "embedsMany",
-      "model": "StatusHistory",
-      "property": "statusHistory",
-      "options": {
-        "validate": true,
-        "forceId": false
-      }
-    },
     "phone": {
       "type": "embedsOne",
       "model": "Phone",
