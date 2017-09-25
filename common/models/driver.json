@@ -70,13 +70,10 @@
   "validations": [],
   "relations": {
     "contacts": {
-      "type": "embedsMany",
+      "type": "hasMany",
       "model": "Contact",
-      "property": "contacts",
-      "options": {
-        "validate": true,
-        "forceId": false
-      }
+      "foreignKey": "",
+      "through": "DriverContactTieup"
     },
     "driversLicense": {
       "type": "embedsMany",

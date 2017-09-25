@@ -82,5 +82,9 @@
   "DriverNoteTieup": {
     "dataSource": "mongodb",
     "public": true
+  },
+  "DriverContactTieup": {
+    "dataSource": "mongodb",
+    "public": true
   }
 }
