@@ -112,6 +112,12 @@
       "model": "Note",
       "foreignKey": "",
       "through": "DriverNoteTieup"
+    },
+    "driversLicenses": {
+      "type": "hasMany",
+      "model": "DriversLicense",
+      "foreignKey": "",
+      "through": "DriverDriverslicenseTieup"
     }
   },
   "acls": [],

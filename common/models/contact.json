@@ -36,6 +36,11 @@
         "validate": true,
         "forceId": false
       }
+    },
+    "driver": {
+      "type": "belongsTo",
+      "model": "Driver",
+      "foreignKey": ""
     }
   },
   "acls": [],
