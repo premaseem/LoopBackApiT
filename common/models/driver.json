@@ -76,7 +76,7 @@
       "through": "DriverContactTieup"
     },
     "driversLicense": {
-      "type": "embedsMany",
+      "type": "hasMany",
       "model": "DriversLicense",
       "property": "driversLicense",
       "options": {
@@ -94,7 +94,7 @@
       }
     },
     "phone": {
-      "type": "embedsOne",
+      "type": "embedsMany",
       "model": "Phone",
       "property": "phone",
       "options": {
