@@ -7,7 +7,18 @@
   },
   "properties": {},
   "validations": [],
-  "relations": {},
+  "relations": {
+    "driver": {
+      "type": "belongsTo",
+      "model": "Driver",
+      "foreignKey": ""
+    },
+    "contact": {
+      "type": "belongsTo",
+      "model": "Contact",
+      "foreignKey": ""
+    }
+  },
   "acls": [],
   "methods": {}
 }
