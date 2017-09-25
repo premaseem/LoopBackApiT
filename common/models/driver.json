@@ -102,9 +102,9 @@
         "forceId": false
       }
     },
-    "tenant": {
+    "tenantOffice": {
       "type": "belongsTo",
-      "model": "Tenant",
+      "model": "TenantOffice",
       "foreignKey": ""
     },
     "notes": {
