@@ -3,7 +3,7 @@
 var app = require('../../server/server');
 
 module.exports = function (Contact) {
-  Contact.afterRemote('create', function(context, note, next) {
+  Contact.afterRemote('create', function(context, contact, next) {
     var req = context.req.body;
     if (req && !req.driverId){
       next(new Error("contact should always belong to a Driver. Please specify."));
@@ -23,12 +23,12 @@ module.exports = function (Contact) {
 
   });
 
-  Contact.beforeRemote('replaceById', function(context, note, next) {
+  Contact.beforeRemote('replaceById', function(context, contact, next) {
     var req = context.req.body;
     console.log("Chcking req", req);
 
     app.models.DriverContactTieup.upsertWithWhere({
-      noteId: req.id
+      contactId: req.id
     },{
       driverId: req.driverId,
       contactId: req.id

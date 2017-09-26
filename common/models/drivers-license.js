@@ -2,7 +2,7 @@
 var app = require('../../server/server');
 
 module.exports = function (Driverslicense) {
-  Driverslicense.afterRemote('create', function(context, note, next) {
+  Driverslicense.afterRemote('create', function(context, driversLicense, next) {
     var req = context.req.body;
     if (req && !req.driverId){
       next(new Error("contact should always belong to a Driver. Please specify."));
@@ -11,7 +11,7 @@ module.exports = function (Driverslicense) {
 
     app.models.DriverDriverslicenseTieup .create({
       driverId: req.driverId,
-      contactId: contact.id
+      driversLicenseId: driversLicense.id
     }, function(err, result){
       if (err){
         next(err);
@@ -22,7 +22,7 @@ module.exports = function (Driverslicense) {
 
   });
 
-  Driverslicense.beforeRemote('replaceById', function(context, note, next) {
+  Driverslicense.beforeRemote('replaceById', function(context, driversLicense, next) {
     var req = context.req.body;
     console.log("Chcking req", req);
 
@@ -30,7 +30,7 @@ module.exports = function (Driverslicense) {
       noteId: req.id
     },{
       driverId: req.driverId,
-      contactId: req.id
+      driversLicenseId: req.id
     }, function(err, results){
       if (err){
         next(err);

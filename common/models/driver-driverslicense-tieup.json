@@ -9,10 +9,10 @@
   "validations": [],
   "relations": {
     "driver": {
-    "type": "belongsTo",
-    "model": "Driver",
-    "foreignKey": ""
-  },
+      "type": "belongsTo",
+      "model": "Driver",
+      "foreignKey": ""
+    },
     "drivers-license": {
       "type": "belongsTo",
       "model": "DriversLicense",
