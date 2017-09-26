@@ -27,7 +27,7 @@ module.exports = function (Driverslicense) {
     console.log("Chcking req", req);
 
     app.models.DriverDriverslicenseTieup .upsertWithWhere({
-      noteId: req.id
+      driversLicenseId: req.id
     },{
       driverId: req.driverId,
       driversLicenseId: req.id
