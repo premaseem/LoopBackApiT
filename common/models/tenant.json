@@ -15,7 +15,14 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "tenantOffices": {
+      "type": "hasMany",
+      "model": "TenantOffice",
+      "foreignKey": "",
+      "through": "TenantTenantOfficeTieup"
+    }
+  },
   "acls": [],
   "methods": {}
 }

@@ -1,20 +1,21 @@
 {
-  "name": "TenantOffice",
+  "name": "TenantTenantOfficeTieup",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
     "validateUpsert": true
   },
-  "properties": {
-    "name": {
-      "type": "string"
-    }
-  },
+  "properties": {},
   "validations": [],
   "relations": {
     "tenant": {
       "type": "belongsTo",
       "model": "Tenant",
+      "foreignKey": ""
+    },
+    "tenantOffice": {
+      "type": "belongsTo",
+      "model": "TenantOffice",
       "foreignKey": ""
     }
   },
