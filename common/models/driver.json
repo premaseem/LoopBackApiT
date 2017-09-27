@@ -120,7 +120,6 @@
       "through": "DriverDriverslicenseTieup"
     }
   },
-  "acls": [
-  ],
+  "acls": [],
   "methods": {}
 }

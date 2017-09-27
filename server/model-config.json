@@ -90,5 +90,9 @@
   "DriverDriverslicenseTieup": {
     "dataSource": "mongodb",
     "public": true
+  },
+  "TenantOffice": {
+    "dataSource": "mongodb",
+    "public": true
   }
 }
