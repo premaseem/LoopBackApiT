@@ -68,16 +68,19 @@
     },
     "vendorId": {
       "type": "number"
-    },"accidents": {
+    },
+    "accidents": {
       "type": "number"
-    },"roadsideInspections": {
+    },
+    "roadsideInspections": {
       "type": "number"
-    },"safetyAwards": {
+    },
+    "safetyAwards": {
       "type": "number"
-    },"safetyMeetings": {
+    },
+    "safetyMeetings": {
       "type": "number"
     }
-
   },
   "validations": [],
   "relations": {
@@ -100,6 +103,15 @@
       "type": "embedsMany",
       "model": "AddressHistory",
       "property": "addressHistory",
+      "options": {
+        "validate": true,
+        "forceId": false
+      }
+    },
+    "awards": {
+      "type": "embedsMany",
+      "model": "Award",
+      "property": "award",
       "options": {
         "validate": true,
         "forceId": false

@@ -98,5 +98,9 @@
   "TenantTenantOfficeTieup": {
     "dataSource": "mongodb",
     "public": true
+  },
+  "Award": {
+    "dataSource": "mongodb",
+    "public": true
   }
 }
