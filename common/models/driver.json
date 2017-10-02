@@ -142,6 +142,24 @@
       "model": "DriversLicense",
       "foreignKey": "",
       "through": "DriverDriverslicenseTieup"
+    },
+    "annualReviews": {
+      "type": "hasMany",
+      "model": "AnnualReview",
+      "property": "annualReview",
+      "options": {
+        "validate": true,
+        "forceId": false
+      }
+    },
+    "medCertificates": {
+      "type": "hasMany",
+      "model": "MedCertificate",
+      "property": "medCertificate",
+      "options": {
+        "validate": true,
+        "forceId": false
+      }
     }
   },
   "acls": [],

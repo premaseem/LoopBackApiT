@@ -102,5 +102,13 @@
   "Award": {
     "dataSource": "mongodb",
     "public": true
+  },
+  "AnnualReview": {
+    "dataSource": "mongodb",
+    "public": true
+  },
+  "MedCertificate": {
+    "dataSource": "mongodb",
+    "public": true
   }
 }
