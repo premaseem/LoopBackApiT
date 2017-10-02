@@ -65,7 +65,19 @@
     },
     "type": {
       "type": "string"
+    },
+    "vendorId": {
+      "type": "number"
+    },"accidents": {
+      "type": "number"
+    },"roadsideInspections": {
+      "type": "number"
+    },"safetyAwards": {
+      "type": "number"
+    },"safetyMeetings": {
+      "type": "number"
     }
+
   },
   "validations": [],
   "relations": {
