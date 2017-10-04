@@ -13,17 +13,17 @@
     },
     "home": {
       "type": [
-        "string"
+        "number"
       ]
     },
     "work": {
       "type": [
-        "string"
+        "number"
       ]
     },
     "mobile": {
       "type": [
-        "string"
+        "number"
       ]
     }
   },
