@@ -1,5 +1,5 @@
 {
-  "name": "medCertificate",
+  "name": "MedCertificate",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {

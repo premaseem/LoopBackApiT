@@ -1,5 +1,5 @@
 {
-  "name": "annualReview",
+  "name": "AnnualReview",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
